@@ -61,8 +61,8 @@ nav{
 }
 .link-1 a{
     text-decoration: none;
-    color: #161616;
-    background-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #dd0000;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: 25px;
@@ -91,8 +91,8 @@ nav{
 }
 .link-3 a{
     text-decoration: none;
-    color: #FFFFFF;
-    background-color: #dd0000;
+    color: #161616;
+    background-color: #FFFFFF;
     padding-left: 70px;
     padding-right: 70px;
     margin-left: 25px;
