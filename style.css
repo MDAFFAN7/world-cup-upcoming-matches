@@ -104,6 +104,10 @@ nav{
     font-weight: 500;
     font-size: 16px; 
 }
+section{
+    display: flex;
+    
+}
 .all-box{
     display: grid;
     grid-template-columns: repeat(3, 300px);
@@ -184,4 +188,68 @@ nav{
     margin: 0%;
     margin-left: 5px;
     color: #161616;
+}
+footer{
+    background-color: #161616;
+    height: 445px;
+    width: 1349px;
+    margin: 0%;
+    margin-top: 130px;
+}
+footer h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0%;
+    margin-left: 634px;
+    padding-top: 130px;
+    color: #FFFFFF;
+}
+hr{
+    margin-left: 118px;
+    margin-right: 118px;
+    margin-top: 40px;
+}
+.all-last-link{
+    display: flex;
+    margin-top: 50px;
+}
+.all-last-link a{
+    text-decoration: none;
+    color: #b9b9b9;
+}
+.last-link-1{
+    margin-left: 295px;
+}
+.last-link-2{
+    margin-left: 35px;
+}
+.last-link-3{
+    margin-left: 35px;
+}
+.last-link-4{
+    margin-left: 35px;
+}
+.last-link-5{
+    margin-left: 35px;
+}
+.last-link-6{
+    margin-left: 35px;
+}
+.all-social-media{
+    font-size: 40px;
+    display: flex;
+    margin-top: 30px;
+    padding-left: 500px;
+}    
+.facebook a{
+    color: rgb(29, 116, 216);
+    
+}
+.linkedin a{
+    color: rgb(21, 21, 226);
+    padding-left: 90px;
+}
+.github a{
+    color: black;
+    padding-left: 90px;
 }
