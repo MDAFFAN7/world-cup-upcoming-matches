@@ -1,8 +1,9 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
-header{
+
+header {
     margin: 0%;
     background-color: #161616;
     height: 635px;
@@ -12,27 +13,31 @@ header{
     border-radius: 30px;
     display: flex;
 }
-.heading{
+
+.heading {
     color: #FFFFFF;
     font-size: 30px;
     font-weight: 700;
     margin-left: 50px;
     padding-top: 45px;
 }
-.football-info{
+
+.football-info {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
     margin-left: 50px;
 }
-.live{
+
+.live {
     background-color: #dd0000;
     height: 60px;
     width: 150px;
     margin-left: 50px;
     border-radius: 5px;
 }
-.live a{
+
+.live a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 20px;
@@ -41,13 +46,15 @@ header{
     padding-top: 5px;
     position: absolute;
 }
-.ronaldo img{
+
+.ronaldo img {
     height: 413px;
     width: 580px;
     position: absolute;
     margin-top: 221px;
 }
-nav{
+
+nav {
     background-color: #161616;
     height: 250px;
     width: 230px;
@@ -55,11 +62,13 @@ nav{
     margin-top: 100px;
     margin-left: 105px;
 }
-.links{
+
+.links {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
-.link-1 a{
+
+.link-1 a {
     text-decoration: none;
     color: #FFFFFF;
     background-color: #dd0000;
@@ -74,7 +83,8 @@ nav{
     font-weight: 500;
     font-size: 16px;
 }
-.link-2 a{
+
+.link-2 a {
     text-decoration: none;
     color: #161616;
     background-color: #FFFFFF;
@@ -87,9 +97,10 @@ nav{
     position: absolute;
     border-radius: 10px;
     font-weight: 500;
-    font-size: 16px;  
+    font-size: 16px;
 }
-.link-3 a{
+
+.link-3 a {
     text-decoration: none;
     color: #161616;
     background-color: #FFFFFF;
@@ -102,81 +113,98 @@ nav{
     position: absolute;
     border-radius: 10px;
     font-weight: 500;
-    font-size: 16px; 
+    font-size: 16px;
 }
-section{
+
+section {
     display: flex;
 }
-.all-box{
+
+.all-box {
     display: grid;
     grid-template-columns: repeat(3, 300px);
 }
-.box{
+
+.box {
     border: 1px solid #e8e8e8;
     width: 260px;
     height: 202px;
     border-radius: 10px;
 }
-.one{
+
+.one {
     margin-left: 17px;
     margin-top: 100px;
 }
-.two{
+
+.two {
     margin-left: 8px;
     margin-top: 100px;
 }
-.three{
+
+.three {
     margin-top: 100px;
 }
-.four{
+
+.four {
     margin-left: 17px;
     margin-top: 30px;
 }
-.five{
+
+.five {
     margin-left: 8px;
     margin-top: 30px;
 }
-.six{
+
+.six {
     margin-top: 30px;
 }
-.all-flag{
+
+.all-flag {
     display: flex;
     margin-top: 35px;
 }
-.flag-1 img{
+
+.flag-1 img {
     margin-left: 20px;
 }
-.vs{
+
+.vs {
     font-size: 18px;
     font-weight: 600;
     color: #161616;
     margin-left: 5px;
 }
-.flag-2 img{
+
+.flag-2 img {
     margin-left: 5px;
 }
-.teams h1{
+
+.teams h1 {
     font-size: 20px;
     font-weight: 600;
     color: #161616;
     margin: 0%;
     margin-top: 10px;
 }
-.teams p{
+
+.teams p {
     margin: 0%;
     margin-top: 10px;
     font-size: 16px;
     font-weight: 400;
     color: #4d4d4d;
 }
-footer{
+
+footer {
     background-color: #161616;
     height: 445px;
     width: 1349px;
     margin: 0%;
     margin-top: 130px;
 }
-footer h1{
+
+footer h1 {
     font-size: 40px;
     font-weight: 600;
     margin: 0%;
@@ -184,200 +212,325 @@ footer h1{
     padding-top: 130px;
     color: #FFFFFF;
 }
-hr{
+
+hr {
     margin-left: 118px;
     margin-right: 118px;
     margin-top: 40px;
 }
-.all-last-link{
+
+.all-last-link {
     display: flex;
     margin-top: 50px;
 }
-.all-last-link a{
+
+.all-last-link a {
     text-decoration: none;
     color: #b9b9b9;
 }
-.last-link-1{
+
+.last-link-1 {
     margin-left: 295px;
 }
-.last-link-2{
+
+.last-link-2 {
     margin-left: 35px;
 }
-.last-link-3{
+
+.last-link-3 {
     margin-left: 35px;
 }
-.last-link-4{
+
+.last-link-4 {
     margin-left: 35px;
 }
-.last-link-5{
+
+.last-link-5 {
     margin-left: 35px;
 }
-.last-link-6{
+
+.last-link-6 {
     margin-left: 35px;
 }
-.all-social-media{
+
+.all-social-media {
     font-size: 40px;
     display: flex;
     margin-top: 30px;
     padding-left: 500px;
-}    
-.facebook a{
-    color: rgb(29, 116, 216);
-    
 }
-.linkedin a{
+
+.facebook a {
+    color: rgb(29, 116, 216);
+
+}
+
+.linkedin a {
     color: rgb(21, 21, 226);
     padding-left: 90px;
 }
-.github a{
+
+.github a {
     color: black;
     padding-left: 90px;
 }
+
 /* mobile */
-@media only screen and (max-width: 767px){
-    body{
+@media only screen and (max-width: 767px) {
+    body {
         margin: 0%;
     }
-    header{
+
+    header {
         margin: 0%;
-        height: 928px;
+        height: 880px;
         width: 400px;
         margin-left: 11px;
         border-radius: 10px;
         display: block;
         width: 100%;
     }
-    .heading{
+
+    .heading {
         color: #FFFFFF;
         font-size: 16px;
         font-weight: 700;
         margin: 0%;
     }
-    .ho{
+
+    .ho {
         padding-left: 100px;
     }
-    .ht{
+
+    .ht {
         padding-left: 110px;
     }
-    .hth{
+
+    .hth {
         padding-left: 150px;
     }
-    .football-info p span{
+
+    .football-info p span {
         display: block;
     }
-    .live{
+
+    .live {
         background-color: #dd0000;
         height: 60px;
         width: 150px;
         margin-left: 115px;
         border-radius: 5px;
     }
-    .ronaldo img{
+
+    .ronaldo img {
         height: 383px;
         width: 400px;
         position: absolute;
         margin: 0%;
         margin-top: 37px;
     }
-    nav{
+
+    nav {
         background-color: #FFFFFF;
         margin-left: 90px;
     }
-    .link-1 a{
+
+    .link-1 a {
         border: #B9B9B9 1px solid;
     }
-    .link-2 a{
+
+    .link-2 a {
         border: #B9B9B9 1px solid;
         margin-left: 50px;
         padding-left: 15px;
         padding-right: 20px;
     }
-    .link-3 a{
+
+    .link-3 a {
         margin-left: 55px;
         padding-left: 35px;
         padding-right: 40px;
     }
-    section{
+
+    section {
         display: block;
     }
-    .all-box{
+
+    .all-box {
         display: grid;
         grid-template-columns: repeat(1, 15px);
     }
-    .one{
+
+    .one {
         margin-left: 80px;
     }
-    .two{
+
+    .two {
         margin-left: 80px;
     }
-    .three{
+
+    .three {
         margin-left: 80px;
     }
-    .four{
+
+    .four {
         margin-left: 80px;
         margin-top: 90px;
     }
-    .five{
+
+    .five {
         margin-left: 80px;
         margin-top: 90px;
     }
-    .six{
+
+    .six {
         margin-top: 90px;
         margin-left: 80px;
     }
-    footer{
+
+    footer {
         height: 550px;
         width: 415px;
         margin-top: 50px;
     }
-    footer h1{
+
+    footer h1 {
         margin-left: 160px;
         padding-top: 30px;
     }
-    hr{ 
+
+    hr {
         margin: 0%;
         margin-top: 20px;
         margin-left: 20px;
         padding-left: 380px;
         position: absolute;
-        
+
     }
-    .all-last-link{
+
+    .all-last-link {
         display: block;
         display: grid;
         grid-template-columns: repeat(1, 15px);
     }
-    .last-link-1{
+
+    .last-link-1 {
         margin-left: 160px;
         width: 100px;
     }
-    .last-link-2{
+
+    .last-link-2 {
         width: 150px;
         margin-left: 140px;
         margin-top: 20px;
     }
-    .last-link-3{
+
+    .last-link-3 {
         width: 130px;
         margin-left: 153px;
         margin-top: 20px;
     }
-    .last-link-4{
+
+    .last-link-4 {
         width: 130px;
         margin-top: 20px;
         margin-left: 145px;
     }
-    .last-link-5{
+
+    .last-link-5 {
         width: 100px;
         margin-top: 20px;
         margin-left: 170px;
     }
-    .last-link-6{
+
+    .last-link-6 {
         width: 100px;
         margin-top: 20px;
         margin-left: 172px;
     }
-    .all-social-media{
+
+    .all-social-media {
         padding-left: 55px;
         position: absolute;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        margin: 0%;
+    }
+
+    header {
+        width: 1000px;
+        margin-left: 90px;
+    }
+
+    nav {
+        background-color: #FFFFFF;
+    }
+
+    .links {
+        display: flex;
+    }
+
+    .link-1 a {
+        margin-top: -80px;
+        margin-left: 80px;
+        border: 1px #e8e8e8 solid;
+    }
+
+    .link-2 a {
+        margin-left: 385px;
+        margin-top: -80px;
+        border: 1px #e8e8e8 solid;
+    }
+
+    .link-3 a {
+        margin-left: 685px;
+        margin-top: -80px;
+        border: 1px #e8e8e8 solid;
+    }
+
+    section {
+        display: block;
+        height: 100px;
+    }
+
+    article {
+        display: block;
+    }
+
+    .box {
+        width: 490px;
+        height: 212px;
+    }
+
+    .one {
+        margin-left: 90px;
+        margin-top: -200px;
+    }
+
+    .two {
+        margin-left: 300px;
+        margin-top: -200px;
+    }
+
+    .three {
+        margin-left: -510px;
+        margin-top: 50px;
+    }
+
+    .four {
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+
+    .five {
+        margin-left: -210px;
+        margin-top: 280px;
+    }
+
+    footer {
+        margin-top: 1100px;
     }
 }
