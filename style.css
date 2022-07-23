@@ -233,3 +233,151 @@ hr{
     color: black;
     padding-left: 90px;
 }
+/* mobile */
+@media only screen and (max-width: 767px){
+    body{
+        margin: 0%;
+    }
+    header{
+        margin: 0%;
+        height: 928px;
+        width: 400px;
+        margin-left: 11px;
+        border-radius: 10px;
+        display: block;
+        width: 100%;
+    }
+    .heading{
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0%;
+    }
+    .ho{
+        padding-left: 100px;
+    }
+    .ht{
+        padding-left: 110px;
+    }
+    .hth{
+        padding-left: 150px;
+    }
+    .football-info p span{
+        display: block;
+    }
+    .live{
+        background-color: #dd0000;
+        height: 60px;
+        width: 150px;
+        margin-left: 115px;
+        border-radius: 5px;
+    }
+    .ronaldo img{
+        height: 383px;
+        width: 400px;
+        position: absolute;
+        margin: 0%;
+        margin-top: 37px;
+    }
+    nav{
+        background-color: #FFFFFF;
+        margin-left: 90px;
+    }
+    .link-1 a{
+        border: #B9B9B9 1px solid;
+    }
+    .link-2 a{
+        border: #B9B9B9 1px solid;
+        margin-left: 50px;
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+    .link-3 a{
+        margin-left: 55px;
+        padding-left: 35px;
+        padding-right: 40px;
+    }
+    section{
+        display: block;
+    }
+    .all-box{
+        display: grid;
+        grid-template-columns: repeat(1, 15px);
+    }
+    .one{
+        margin-left: 80px;
+    }
+    .two{
+        margin-left: 80px;
+    }
+    .three{
+        margin-left: 80px;
+    }
+    .four{
+        margin-left: 80px;
+        margin-top: 90px;
+    }
+    .five{
+        margin-left: 80px;
+        margin-top: 90px;
+    }
+    .six{
+        margin-top: 90px;
+        margin-left: 80px;
+    }
+    footer{
+        height: 550px;
+        width: 415px;
+        margin-top: 50px;
+    }
+    footer h1{
+        margin-left: 160px;
+        padding-top: 30px;
+    }
+    hr{ 
+        margin: 0%;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding-left: 380px;
+        position: absolute;
+        
+    }
+    .all-last-link{
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(1, 15px);
+    }
+    .last-link-1{
+        margin-left: 160px;
+        width: 100px;
+    }
+    .last-link-2{
+        width: 150px;
+        margin-left: 140px;
+        margin-top: 20px;
+    }
+    .last-link-3{
+        width: 130px;
+        margin-left: 153px;
+        margin-top: 20px;
+    }
+    .last-link-4{
+        width: 130px;
+        margin-top: 20px;
+        margin-left: 145px;
+    }
+    .last-link-5{
+        width: 100px;
+        margin-top: 20px;
+        margin-left: 170px;
+    }
+    .last-link-6{
+        width: 100px;
+        margin-top: 20px;
+        margin-left: 172px;
+    }
+    .all-social-media{
+        padding-left: 55px;
+        position: absolute;
+    }
+}
