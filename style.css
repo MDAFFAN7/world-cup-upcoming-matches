@@ -253,5 +253,10 @@ hr{
         font-weight: 700;
         margin: 0%;
     }
-    
+    section{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
 }
